@@ -4,11 +4,6 @@ declare(strict_types=1);
 namespace Natokpe\PhpInterface;
 
 /**
- * This is the summary for a DocBlock.
- *
- * This is the description for a DocBlock. This text may contain
- * multiple lines and even some _markdown_.
- *
  * @package  Natokpe\PhpInterface
  * 
  * @access public
