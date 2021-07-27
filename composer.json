@@ -2,13 +2,24 @@
     "name": "natokpe/php-interface",
     "description": "Tiny PHP package to help you determine whether your PHP app is using a command line interface or a web interface",
     "type": "library",
+	"keywords": ["sapi", "cli", "web", "interface", "cgi"],
+    "homepage": "https://github.com/natokpe/php-interface",
     "license": "MIT",
     "authors": [
         {
             "name": "Nat Okpe",
-            "email": "natokpe@gmail.com"
+            "email": "natokpe@gmail.com",
+            "homepage": "https://github.com/natokpe",
+            "role": "Developer"
         }
     ],
+    "support": {
+        "email": "natokpe@gmail.com",
+        "issues": "https://github.com/natokpe/php-interface/issues"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
     "autoload": {
         "psr-4": {
             "Natokpe\\PhpInterface\\": "src/"
