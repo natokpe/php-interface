@@ -1,0 +1,18 @@
+{
+    "name": "natokpe/php-interface",
+    "description": "Tiny PHP package to help you determine whether your PHP app is using a command line interface or a web interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nat Okpe",
+            "email": "natokpe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Natokpe\\PhpInterface\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
