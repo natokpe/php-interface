@@ -10,15 +10,15 @@ Use this package to determine what type of interface your PHP app is using to ru
 <a href="#"><img src="https://img.shields.io/github/v/release/natokpe/php-interface" alt="release"></img></a>
 </p>
 
-# Installation
+## Installation
 
-## Composer
+### Composer
 The recommended way of including this package in your project is via Composer
 ```bash
 $ composer require natokpe/php-interface
 ```
 
-# Usage
+## Usage
 To use the package, you can simply do something like this
 ```php
 use natokpe\PhpInterface\PhpInterface;
@@ -56,4 +56,6 @@ echo PhpInterface::getType(); // will print either 'cli' or 'web' depending on w
 The `getType()` static method is similar to `which()`.
 
 
+
 That's it! I hope you like it and find it useful.
+Thank you.
