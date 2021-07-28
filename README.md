@@ -27,8 +27,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $interface = new PhpInterface;
 
-echo $interface->which();
-// will print 'cli' if PHP is using CLI to run or 'web' if PHP is run from web
+echo $interface->which(); // will print 'cli' if PHP is using CLI to run or 'web' if PHP is run from web
 ```
 
 You can also use either of the `isCli()` or `isWeb()` methods to check
@@ -38,7 +37,7 @@ if ( $interface->isCli() ) {
 }
 
 if ( $interface->isWeb() ) {
-  echo 'cli'; // will print 'web' if PHP is run from web
+  echo 'web'; // will print 'web' if PHP is run from web
 }
 ```
 
