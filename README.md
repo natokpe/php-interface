@@ -5,9 +5,9 @@ Use this package to determine what type of interface your PHP app is using to ru
 
 <p align="center">
 <a href="LICENSE"><img src="https://img.shields.io/github/license/natokpe/php-interface" alt="Software License"></img></a>
+<a href="#"><img src="https://img.shields.io/github/v/release/natokpe/php-interface" alt="release"></img></a>
 <a href="#"><img src="https://img.shields.io/github/repo-size/natokpe/php-interface" alt="repo size"></img></a>
 <a href="#"><img src="https://img.shields.io/github/size/natokpe/php-interface/src/PhpInterface.php" alt="file size"></img></a>
-<a href="#"><img src="https://img.shields.io/github/v/release/natokpe/php-interface" alt="release"></img></a>
 </p>
 
 ## Installation
@@ -21,7 +21,7 @@ $ composer require natokpe/php-interface
 ## Usage
 To use the package, you can simply do something like this
 ```php
-use natokpe\PhpInterface\PhpInterface;
+use Natokpe\PhpInterface\PhpInterface;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
@@ -48,11 +48,11 @@ if ( $interface->isCgi() ) {
 }
 ```
 
-You can use PhpInterface without instantiation via the `getType()` static method.
+You can use PhpInterface without having to instantiate the class via the `getType()` static method, like this
 ```php
 echo PhpInterface::getType(); // will print either 'cli' or 'web' depending on which type of interface PHP is using
 ```
-The `getType()` static method is similar to `which()`.
+The `getType()` static method is similar to `which()` method.
 
 
 <p>
