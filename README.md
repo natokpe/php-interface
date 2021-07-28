@@ -1,7 +1,7 @@
 PhpInterface
 ============
 
-Use this package to determine what type of interface your PHP app is using to run. a command line interface or a web interface
+Use this package to determine what type of interface your PHP app is using to run.
 
 <p align="center">
 <a href="LICENSE"><img src="https://img.shields.io/github/license/natokpe/php-interface" alt="Software License"></img></a>
@@ -56,6 +56,9 @@ echo PhpInterface::getType(); // will print either 'cli' or 'web' depending on w
 The `getType()` static method is similar to `which()`.
 
 
-
+<p>
 That's it! I hope you like it and find it useful.
+</p>
+<p>
 Thank you.
+</p>
